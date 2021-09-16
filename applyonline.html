@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<header>
+<table align="center">
+	<tr>
+		<td>
+			<img src="images/logo.png">
+		</td>
+		<td>
+			<img width="400px" height="100px" src="images/Add.png">
+		</td>	
+	</tr>
+</table>
+</header>
+
+<table height="50" bgcolor="#7aa1e2" width="100%" border="1px solid blue">
+	<tr>
+		<td align="center">
+			<a href="Task-3.html">HOME</a>
+		</td>
+		<td align="center">
+			<a href="about.html">About-Us</a>
+		</td>
+		<td align="center">
+			<a href="course.html">Course</a>
+		</td>
+		<td align="center">
+			<a href="admission.html">Admission</a>
+		</td>	
+		<td align="center">
+			<a href="department.html">Department</a>
+		</td>
+		<td align="center">
+			<a href="facilities.html">Facilities</a>
+		</td>
+		<td align="center">
+			<a href="gallery.html">Gallery</a>
+		</td>
+		<td align="center">
+			<a target="_blank" href="applyonline.html" >Apply-online</a>
+		</td>
+		<td align="center">
+			<a target="_blank" href="pdf/Honnalli seminar.pdf">Seminar</a>
+		</td>
+		<td align="center">
+			<a target="_blank" href="pdf/college_profile.pdf">Reports</a>
+		</td>
+	</tr>	
+</table>
+	
+<form method="get" action="">
+<table align="center" cellspacing="50" bgcolor="#E8E8E8">
+	<tr>
+		<td>
+			<img src="images/sb.png" width="500px" height="600px">
+		</td>
+		<td>
+			<table bgcolor="pink">
+				<tr align="center">
+					<td colspan="2"> 
+						<h1><u>ADMISSION ENQUIRY</u></h1>
+					</td>
+				</tr>
+				<tr>
+					<td height="50px">
+						<input name="name" placeholder="Name*" maxlength="100" type="text" size="25px">
+					</td>
+					<td>
+						<!--<select name="course">
+							<option value="">Select Course</option>
+							<option value="1">BA</option>
+							<option value="2">BSc</option>
+							<option value="3">Commerc</option>
+						</select>-->
+						<input type="text" name="course" list="course" placeholder="Select Course*" size="20px" />
+							<datalist id="course">
+							<option>BA</option>
+							<option>BSc</option>
+							<option>Commerce</option>
+							<option>MA</option>
+							</datalist>
+					</td>
+				</tr>
+				<tr>
+					<td height="50px">
+						<input name="phone"  placeholder="Contact No*" maxlength="13" type="text" size="25px">
+					</td>
+					<td height="50px">
+						<!--<select name="country">
+							<option value="">Select Country</option>
+							<option value="1">India</option>
+							<option value="2">US</option>
+							<option value="3">Australia</option>
+						</select>-->
+
+						<input type="text" name="country" list="country" placeholder="Select Country*" size="20px" />
+							<datalist id="country">
+							<option>India</option>
+							<option>USA</option>
+							<option>JAPAN</option>
+							<option>CHINA</option>
+							</datalist>
+					</td>
+				</tr>
+				<tr>
+					<td height="50px">
+						<input name="email" placeholder="Email*" maxlength="50" type="email" size="25px">
+					</td>
+					<td height="50px">
+						<!--<select name="state" id="state" class="form-control" required="required">
+							<option value="">Select State</option>
+							<option value="1">Mumbai</option>
+							<option value="2">Karnataka</option>
+							<option value="3">Goa</option>
+						</select>-->
+						<input type="text" name="state" list="state" placeholder="Select State*" size="20px" />
+							<datalist id="state">
+							<option>Mumbai</option>
+							<option>GOA</option>
+							<option>Karanataka</option>
+							<option>UP</option>
+							</datalist>
+					</td>
+				</tr>
+				<tr>
+					<td height="50px">
+						<!--<select name="program">
+							<option value="">Select Program</option>
+							<option value="1">UG</option>
+							<option value="2">PG</option>
+						</select>-->
+						<input type="text" name="course" list="progm" placeholder="Select program*" size="25px" />
+							<datalist id="progm">
+							<option>UG</option>
+							<option>PG</option>
+							</datalist>
+					</td>
+					<td height="50px">
+						<!--<select name="city">
+							<option value="">Select City</option>
+							<option value="1">Mangalore</option>
+							<option value="2">Mysore</option>
+							<option value="3">Bangalore</option>
+						</select>-->
+
+
+						<input type="text" name="city" list="cities" placeholder="Select city*" />
+							<datalist id="cities">
+							<option>Calcutta</option>
+							<option>Calgary</option>
+							<option>London</option>
+							<option>Los Angeles</option>
+							</datalist>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2" height="50px"> 
+						<br><textarea name="message" placeholder="Message" rows="13" cols="50"></textarea>
+					</td>
+				</tr>
+				<tr align="center">
+					<td colspan="2" height="50px"> 
+						<input class="btn" type="submit" value="Submit">
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+</form>
+
+<br>
+<hr>
+<footer>
+<table height="50" bgcolor="#7aa1e2" width="100%">
+	<tr >
+		<td align="right">
+			<a href="Task-3.html">HOME</a> &nbsp <a href="about.html">About-Us</a> &nbsp<a href="department.html">Department</a>
+		</td>
+		<td align="center">
+			<p> Copyright &copy 2015, All Rights Reserved</p>
+		</td>	
+		<td align="right">
+			<p>Powered By : Aptra Techonologies.</p>
+		</td>
+		
+	</tr>
+</table>
+</footer>
+
+</body>
+</html>
